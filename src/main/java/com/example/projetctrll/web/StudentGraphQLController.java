@@ -24,7 +24,7 @@ public class StudentGraphQLController {
     }
 
     @QueryMapping
-    public List<StudentDTO> findStudentByDateNaissance(@Argument Date dateNaissance){
+    public List<StudentDTO> findStudentByDateNaissance(@Argument String dateNaissance){
         return studentService.findStudentByDateNaissance(dateNaissance);
     }
 

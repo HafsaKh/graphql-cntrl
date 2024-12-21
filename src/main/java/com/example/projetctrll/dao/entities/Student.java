@@ -20,6 +20,6 @@ public class Student {
     Long id_Student;
     String name;
     String email;
-    Date dateNaissance;
+    String dateNaissance;
 
 }

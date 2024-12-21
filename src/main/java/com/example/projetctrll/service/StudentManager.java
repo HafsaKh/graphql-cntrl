@@ -27,7 +27,7 @@ public class StudentManager implements StudentService{
     }
 
     @Override
-    public List<StudentDTO> findStudentByDateNaissance(Date dateNaissance) {
+    public List<StudentDTO> findStudentByDateNaissance(String dateNaissance) {
         List<Student> students = studentRepository.findByDateNaissance(dateNaissance);
         return studentMapper.fromStudentListToStudentDTOList(students);
     }

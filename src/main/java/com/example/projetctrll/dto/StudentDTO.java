@@ -14,5 +14,5 @@ import java.util.Date;
 public class StudentDTO {
     String name;
     String email;
-    Date dateNaissance;
+    String dateNaissance;
 }

@@ -7,5 +7,5 @@ import java.util.List;
 
 public interface StudentService {
     StudentDTO saveStudent(StudentDTO studentDTO);
-    List<StudentDTO> findStudentByDateNaissance(Date dateNaissance);
+    List<StudentDTO> findStudentByDateNaissance(String dateNaissance);
 }

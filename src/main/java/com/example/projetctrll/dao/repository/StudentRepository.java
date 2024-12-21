@@ -7,6 +7,6 @@ import java.util.Date;
 import java.util.List;
 
 public interface StudentRepository extends JpaRepository<Student,Long> {
-    public List<Student> findByDateNaissance(Date dateNaissance);
+    List<Student> findByDateNaissance(String dateNaissance);
 
 }
